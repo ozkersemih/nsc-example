@@ -835,6 +835,24 @@
   dependencies:
     "@sinonjs/commons" "^3.0.0"
 
+"@trendyol/eslint-plugin-nest-swagger-checker-lint@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@trendyol/eslint-plugin-nest-swagger-checker-lint/-/eslint-plugin-nest-swagger-checker-lint-1.0.0.tgz#9813f2065ee200c85ba30d90c6147265a6b99181"
+  integrity sha512-FEbfTBEteZrM71HvrWQ8+lyWx9FIQNSYxPAVMEyfc4An4tBQ2Ied1/kdr//qcTszlzD8/k7uKvoV76Kd1IaaOw==
+  dependencies:
+    "@typescript-eslint/types" "^7.7.1"
+    nest-swagger-checker "^1.2.5"
+
+"@trendyol/nest-swagger-checker@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@trendyol/nest-swagger-checker/-/nest-swagger-checker-1.1.0.tgz#e8aecbc96b084f8bb49335f9a29c39bdf058e9e1"
+  integrity sha512-infA4FipodJmL5SnDqunwz73xsReY6DH1XLZi8+caeiswtq68mq5hoIM/ujCiCZxTczcBOPgwBIdZmRmDfEeuA==
+  dependencies:
+    ramda "^0.30.0"
+    ts-morph "^22.0.0"
+    ts-node "^10.9.2"
+    typescript "^5.4.5"
+
 "@ts-morph/common@~0.23.0":
   version "0.23.0"
   resolved "https://registry.yarnpkg.com/@ts-morph/common/-/common-0.23.0.tgz#bd4ddbd3f484f29476c8bd985491592ae5fc147e"
@@ -2161,14 +2179,6 @@ eslint-config-prettier@^9.0.0:
   version "9.1.0"
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-9.1.0.tgz#31af3d94578645966c082fcb71a5846d3c94867f"
   integrity sha512-NSWl5BFQWEPi1j4TjVNItzYV7dZXZ+wP6I6ZhrBGpChQhZRUaElihE9uRRkcbRnNb76UMKDF3r+WTmNcGPKsqw==
-
-eslint-plugin-nest-swagger-checker-lint@^1.0.7:
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-nest-swagger-checker-lint/-/eslint-plugin-nest-swagger-checker-lint-1.0.7.tgz#8458ac6cc08ac3f0a5d6e22abc48da803a9ec3a3"
-  integrity sha512-3FSSafdrSi/eR6rlSYilHhi2iYPZw3skR2e2FcCajE9XMjJ18NXvC3YBuV1bMydjJ0MmP9aUveMBQFhMBCnG/A==
-  dependencies:
-    "@typescript-eslint/types" "^7.7.1"
-    nest-swagger-checker "^1.2.5"
 
 eslint-plugin-prettier@^5.0.0:
   version "5.1.3"
